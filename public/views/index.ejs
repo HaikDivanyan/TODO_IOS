@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="script.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      background: #8d2de2;
+      background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+      background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    }
+
+    .new-task {
+      color: black;
+    }
+    .list-group-item{
+      color: black !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Haik's TODO List:</h2>
+    <div class="card" style="width: 50rem;" id="list-card">
+      <div class="card-header">
+        Featured
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" id="ul">
+         <!--- <div class="form-check form-switch">
+            <input class="form-check-input" onclick="updateTask(this);" list-id="5fe7232b51333a2d7367c931" type="checkbox" id="checkbox">
+            <label class="form-check-label" for="flexSwitchCheckDefault">dfgjdjfgdij</label>
+            <button class="btn btn-primary">delete</button>
+          </div> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--task 1-->
+
+  <div class="new-task container">
+    <form>
+      <input type="text" class="new task" placeholder="enter new task" id="new-task-name" aria-label="enter new task" />
+      <button class="btn-task" onclick="addTask();" type="button" aria-label="create new task">+</button>
+    </form>
+  </div>
+
+  </div>
+  </div>
+</body>
+
+
+
+</html>
